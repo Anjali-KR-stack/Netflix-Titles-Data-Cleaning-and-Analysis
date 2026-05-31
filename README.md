@@ -4,13 +4,21 @@ This document explains the data cleaning steps performed on the Netflix Titles d
 
 Steps Performed
 Created a table for the full dataset for easy analysis
+
 Auto-adjusted column width and height for better readability
+
 Checked for duplicates and confirmed there are no duplicate records
+
 Found missing values in the Director column and replaced them with "UNKNOWN"
+
 In the Cast column, missing values were replaced with "Not Available"
+
 In the Country column, blank values were found using filters and replaced with "UNKNOWN"
+
 In the Rating column, missing values were replaced with "Not Rated"
+
 In the Duration column, blank values were replaced with "Unknown" using find and replace
+
 Removed extra spaces from all important columns such as:
 Title
 Director
